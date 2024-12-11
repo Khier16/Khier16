@@ -100,6 +100,17 @@ section {
 html, body {
   height: 100%;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of viewport */
+}
 footer {
 	background-color: #031D44;
 	opacity: 0.9;
