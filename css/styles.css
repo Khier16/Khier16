@@ -42,9 +42,20 @@
 	bottom: 10px;
 	opacity: 1;
 }
+
+html, body {
+  	height: 100%;
+}
 main {
 	margin-top: 0px;
 	clear: both;
+	flex: 1; /* Ensures the main content takes up remaining space */
+  	padding: 1rem;
+}
+body {
+  	display: flex;
+  	flex-direction: column;
+  	font-family: Arial, sans-serif;
 }
 header {
 	height: 100px;
@@ -96,20 +107,6 @@ section {
 	text-align: justify;
 	line-height: 1.6; /* Improves text readability */
 	color: #031D44;
-}
-html, body {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, sans-serif;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Full height of viewport */
 }
 footer {
 	background-color: #031D44;
