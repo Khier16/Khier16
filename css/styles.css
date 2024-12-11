@@ -97,6 +97,9 @@ section {
 	line-height: 1.6; /* Improves text readability */
 	color: #031D44;
 }
+html, body {
+  height: 100%;
+}
 footer {
 	background-color: #031D44;
 	opacity: 0.9;
